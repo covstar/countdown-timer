@@ -1,0 +1,14 @@
+{
+  "name": "launch-countdown-timer-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "author": "covstar",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
