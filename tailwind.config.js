@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       // backgroundImages
       backgroundImage: {
-        'stars': "url('/images/bg-stars.svg')",
-        'mountains': "url('/images/pattern-hills.svg')",
+        'stars': "url('../images/bg-stars.svg')",
+        'mountains': "url('./images/pattern-hills.svg')",
       },
       // background size 
       backgroundSize: {

@@ -573,14 +573,6 @@ video {
   z-index: -10;
 }
 
-.-z-0{
-  z-index: 0;
-}
-
-.z-0{
-  z-index: 0;
-}
-
 .mb-10\%{
   margin-bottom: 10%;
 }
@@ -674,7 +666,7 @@ video {
 }
 
 .bg-stars{
-  background-image: url('/images/bg-stars.svg');
+  background-image: url('../images/bg-stars.svg');
 }
 
 .from-mostly-black{
@@ -689,6 +681,10 @@ video {
 
 .bg-contain{
   background-size: contain;
+}
+
+.bg-100\%{
+  background-size: 100%;
 }
 
 .bg-no-repeat{
@@ -802,20 +798,12 @@ video {
     left: -100%;
   }
 
-  .sm\:h-full{
-    height: 100%;
-  }
-
   .sm\:h-10{
     height: 2.5rem;
   }
 
   .sm\:h-52{
     height: 13rem;
-  }
-
-  .sm\:h-screen{
-    height: 100vh;
   }
 
   .sm\:w-20{
@@ -826,8 +814,9 @@ video {
     flex-wrap: wrap;
   }
 
-  .sm\:place-content-center{
-    place-content: center;
+  .sm\:py-30\%{
+    padding-top: 30%;
+    padding-bottom: 30%;
   }
 
   .sm\:px-4{
@@ -835,66 +824,20 @@ video {
     padding-right: 1rem;
   }
 
-  .sm\:py-3{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-
-  .sm\:py-30\%{
-    padding-top: 30%;
-    padding-bottom: 30%;
-  }
-
   .sm\:pt-40\%{
     padding-top: 40%;
-  }
-
-  .sm\:pt-40{
-    padding-top: 10rem;
   }
 
   .sm\:pb-5\%{
     padding-bottom: 5%;
   }
 
+  .sm\:pt-40{
+    padding-top: 10rem;
+  }
+
   .sm\:pb-5{
     padding-bottom: 1.25rem;
-  }
-
-  .sm\:pt-0{
-    padding-top: 0px;
-  }
-
-  .sm\:pt-50\%{
-    padding-top: 50%;
-  }
-
-  .sm\:pt-60\%{
-    padding-top: 60%;
-  }
-
-  .sm\:pb-30\%{
-    padding-bottom: 30%;
-  }
-
-  .sm\:pt-60{
-    padding-top: 15rem;
-  }
-
-  .sm\:pt-30\%{
-    padding-top: 30%;
-  }
-
-  .sm\:pt-3\%{
-    padding-top: 3%;
-  }
-
-  .sm\:pt-3{
-    padding-top: 0.75rem;
-  }
-
-  .sm\:pt-35\%{
-    padding-top: 35%;
   }
 
   .sm\:text-4xl{
