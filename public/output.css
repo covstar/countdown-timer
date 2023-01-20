@@ -814,6 +814,10 @@ video {
     flex-wrap: wrap;
   }
 
+  .sm\:p-35\%{
+    padding: 35%;
+  }
+
   .sm\:py-30\%{
     padding-top: 30%;
     padding-bottom: 30%;
@@ -822,6 +826,21 @@ video {
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:py-3\%{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .sm\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .sm\:py-35\%{
+    padding-top: 35%;
+    padding-bottom: 35%;
   }
 
   .sm\:pt-40\%{
@@ -838,6 +857,10 @@ video {
 
   .sm\:pb-5{
     padding-bottom: 1.25rem;
+  }
+
+  .sm\:pt-35\%{
+    padding-top: 35%;
   }
 
   .sm\:text-4xl{
