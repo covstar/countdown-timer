@@ -855,6 +855,18 @@ video {
     padding-top: 50%;
   }
 
+  .sm\:pt-60\%{
+    padding-top: 60%;
+  }
+
+  .sm\:pb-30\%{
+    padding-bottom: 30%;
+  }
+
+  .sm\:pt-60{
+    padding-top: 15rem;
+  }
+
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
