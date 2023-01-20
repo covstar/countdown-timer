@@ -593,10 +593,6 @@ video {
   margin-top: 1rem;
 }
 
-.mt-60{
-  margin-top: 15rem;
-}
-
 .flex{
   display: flex;
 }
@@ -784,24 +780,9 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.hover\:bg-soft-red:hover{
-  --tw-bg-opacity: 1;
-  background-color: hsl(345 95% 68% / var(--tw-bg-opacity));
-}
-
 .hover\:text-soft-red:hover{
   --tw-text-opacity: 1;
   color: hsl(345 95% 68% / var(--tw-text-opacity));
-}
-
-.hover\:hue-rotate-30:hover{
-  --tw-hue-rotate: hue-rotate(30deg);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:hue-rotate-180:hover{
-  --tw-hue-rotate: hue-rotate(180deg);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (max-width: 720px){
@@ -811,6 +792,10 @@ video {
 
   .sm\:-left-full{
     left: -100%;
+  }
+
+  .sm\:h-full{
+    height: 100%;
   }
 
   .sm\:h-10{
@@ -829,18 +814,13 @@ video {
     flex-wrap: wrap;
   }
 
+  .sm\:place-content-center{
+    place-content: center;
+  }
+
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .sm\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .sm\:pt-35\%{
-    padding-top: 35%;
   }
 
   .sm\:pt-40\%{
@@ -851,20 +831,20 @@ video {
     padding-top: 10rem;
   }
 
-  .sm\:pb-3\%{
-    padding-bottom: 3%;
-  }
-
-  .sm\:pb-3{
-    padding-bottom: 0.75rem;
-  }
-
   .sm\:pb-5\%{
     padding-bottom: 5%;
   }
 
   .sm\:pb-5{
     padding-bottom: 1.25rem;
+  }
+
+  .sm\:pt-0{
+    padding-top: 0px;
+  }
+
+  .sm\:pt-50\%{
+    padding-top: 50%;
   }
 
   .sm\:text-4xl{
@@ -910,36 +890,12 @@ video {
     place-content: center;
   }
 
-  .tb\:pb-24\%{
-    padding-bottom: 24%;
-  }
-
-  .tb\:pb-24{
-    padding-bottom: 6rem;
-  }
-
   .tb\:pb-40\%{
     padding-bottom: 40%;
   }
 
   .tb\:pb-40{
     padding-bottom: 10rem;
-  }
-
-  .tb\:pt-7\%{
-    padding-top: 7%;
-  }
-
-  .tb\:pt-7{
-    padding-top: 1.75rem;
-  }
-
-  .tb\:pt-20\%{
-    padding-top: 20%;
-  }
-
-  .tb\:pt-20{
-    padding-top: 5rem;
   }
 
   .tb\:text-7xl{
