@@ -6,24 +6,98 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./public/output.css">
+  <link rel="stylesheet" href="./src/styles.css">
+
+  <!-- font awesome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <title>Launch countdown timer</title>
 
 </head>
-<body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
+<body class="text-white h-full bg-gradient-to-b from-mostly-black to-Very-dark-blue bg-contain bg-no-repeat relative grid place-items-center  font-Red-Hat md:h-screen  tb:place-content-center">
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<div class="absolute h-full bg-stars w-full -z-10"></div>
 
+
+<!-- main content -->
+  <main class=" text-center pt-7% tb:pb-40% sm:pt-35% ">
+    <!-- headline -->
+    <div class="mb-10% px-5%">
+      <h1 class="font-bold tracking-widest text-2xl">WE'RE LAUNCHING SOON</h1>
+    </div>
+    <!-- countdown times -->
+    <div class="flex justify-center gap-y-8 gap-x-8 mb-20% sm:flex-wrap sm:px-4">
+      <!-- days  -->
+      <div class="box "><!-- box container  -->
+        <div class="relative shadow-md shadow-slate-900">
+        <div class="days-top-card bg-Dark-desaturated-blue bg-opacity-60 md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-br-lg rounded-bl-lg rounded-t"></div>
+        <div id="days" class="absolute md:top-11 sm:top-5 left-0 right-0 md:text-7xl sm:text-4xl tb:text-7xl font-bold text-soft-red mix-blend-color-dodge">08</div>
+        <div class="days-bottom-card bg-Dark-desaturated-blue md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-tr-lg rounded-tl-lg rounded-b"></div>
+        </div>
+        <p class="mt-4 text-sm tracking-widest sm:text-xs">DAYS</p>
+      </div>
+
+      <!-- hours  -->
+     <div class="box "><!-- box container  -->
+        <div class="relative shadow-md shadow-slate-900">
+        <div class="days-top-card bg-Dark-desaturated-blue bg-opacity-60 md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-br-lg rounded-bl-lg rounded-t"></div>
+        <div id="hours" class="absolute md:top-11 sm:top-5 left-0 right-0 md:text-7xl sm:text-4xl tb:text-7xl font-bold text-soft-red mix-blend-color-dodge">23</div>
+        <div class="days-bottom-card bg-Dark-desaturated-blue md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-tr-lg rounded-tl-lg rounded-b"></div>
+        </div>
+        <p class="mt-4 text-sm tracking-widest sm:text-xs">HOURS</p>
+      </div>
+
+      <!-- minutes  -->
+      <div class="box "><!-- box container  -->
+        <div class="relative shadow-md shadow-slate-900">
+        <div class="days-top-card bg-Dark-desaturated-blue bg-opacity-60 md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-br-lg rounded-bl-lg rounded-t"></div>
+        <div id="minutes" class="absolute md:top-11 sm:top-5 left-0 right-0 md:text-7xl sm:text-4xl tb:text-7xl font-bold text-soft-red mix-blend-color-dodge">55</div>
+        <div class="days-bottom-card bg-Dark-desaturated-blue md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-tr-lg rounded-tl-lg rounded-b"></div>
+        </div>
+        <p class="mt-4 text-sm tracking-widest sm:text-xs">MINUTES</p>
+      </div>
+
+      <!-- seconds  -->
+      <div class="box "><!-- box container  -->
+        <div class="relative shadow-md shadow-slate-900">
+        <div class="days-top-card bg-Dark-desaturated-blue bg-opacity-60 md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-br-lg rounded-bl-lg rounded-t"></div>
+        <div id="seconds" class="absolute md:top-11 sm:top-5 left-0 right-0 md:text-7xl sm:text-4xl tb:text-7xl font-bold text-soft-red mix-blend-color-dodge">41</div>
+        <div class="days-bottom-card bg-Dark-desaturated-blue md:h-20 sm:h-10 md:w-40 tb:w-32 sm:w-20 rounded-tr-lg rounded-tl-lg rounded-b"></div>
+        </div>
+        <p class="mt-4 text-sm tracking-widest sm:text-xs">SECONDS</p>
+      </div>
+    </div>
+
+    
+
+
+  </main>
+
+  
+  
+
+  <footer class="  text-center pb-4 sm:pt-40% sm:pb-5%">
+
+
+    <div class="py-5%"><!-- social icons -->
+
+      <ul class="flex gap-x-8 justify-center text-2xl text-Grayish-blue">
+        <li ><a href="#"><i class="fa-brands fa-square-facebook hover:text-soft-red"></i></a></li>
+        <li class=""><a href="#"><i class="fa-brands fa-pinterest hover:text-soft-red"></i></a></li>
+        <li class=""><a href="#"><i class="fa-brands fa-instagram hover:text-soft-red"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="attribution px-6 text-center">
+    Challenge by <a class="text-soft-red" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-soft-red" href="https://www.frontendmentor.io/profile/covstar" target="_blank">Covstar.</a>
+  </div>
+ <div class="bottom-0 -z-10  absolute sm:-left-full left-0 right-0"><img class="w-full sm:h-52" src="./images/pattern-hills.svg" alt=""></div>
+  </footer>
+
+
+  <!-- jQuery and javascript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./src/script.js"></script>
 </body>
 </html>
