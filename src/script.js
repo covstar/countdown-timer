@@ -17,7 +17,7 @@ $(document).ready(function() {
           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
           // Display the result in the element with id="days", "hours", "minutes", "seconds"
-          $("#days").html("0"+days);
+          $("#days").html(days);
           $("#hours").html(hours);
            $("#minutes").html(minutes);
           $("#seconds").html(seconds);
